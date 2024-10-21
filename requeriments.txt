@@ -1,0 +1,4 @@
+
+#Aqui é o pip install nescessario para instalar exatamente quais versões dos pacotes eu preciso para executar esse programa sem problemas
+
+#pip install requerimentos
