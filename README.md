@@ -1,3 +1,7 @@
+Portuguese and English explain versions available.
+
+PT-BR
+
 README - Sistema de Automação de Documentos Oficiais
 Descrição
 Este projeto é um sistema de automação para geração, gerenciamento e impressão de documentos oficiais (Comunicações Internas e Ofícios) utilizado pela Secretaria de Assuntos Jurídicos. O sistema integra várias funcionalidades em um fluxo automatizado, desde a coleta de dados até a impressão final dos documentos.
@@ -5,19 +9,19 @@ Este projeto é um sistema de automação para geração, gerenciamento e impres
 Funcionalidades Principais
 Integração com Google Sheets: Coleta dados de uma planilha online para processamento
 
-Geração de documentos: Cria automaticamente documentos Word (CI e Ofícios) com base em templates
+Geração de documentos: Cria automaticamente documentos Word (CI e Ofícios) com base em templates/modelos pré-definidos
 
 Geração de QR Codes: Inclui QR codes nos documentos gerados, onde tais QR codes servem para atualizar a planilha de registros desses documentos
 
 Gerenciamento de numeração: Controla automaticamente a numeração sequencial realizada nos documentos
 
-Integração com GIAP: Sistema de gestão de processos para registro dos mesmos
+Integração com GIAP: Sistema interno de gestão de processos para registro dos mesmos de forma automática.
 
 Impressão automática: Envia os documentos gerados para impressão
 
 Armazenamento em nuvem: Salva cópias dos documentos gerados no Google Drive
 
-Atualização de planilhas: Mantém registros atualizados no Google Sheets
+Atualização de planilhas: Realiza registros na planilha do Google Sheets, assim evitando registros manuais repetitivos e demorados.
 
 Pré-requisitos
 Python 3.7 ou superior
@@ -61,6 +65,9 @@ text
 ├── numeros_de_oficio.txt             # Registro de números de Ofício utilizados
 ├── CIS e oficios/                    # Pasta de documentos gerados
 └── QRcodesGerados/                   # Pasta temporária para QR codes
+
+OBS: Se atentar aos caminhos dos diretórios, mudar TODAS as linhas para garantir que esteja de acordo com os diretórios do seu sistema operacional.
+
 Como Usar
 Preencha a planilha "CONTROLE DE OFÍCIOS" no Google Drive com os dados necessários
 
@@ -111,7 +118,7 @@ Para ver a sua execução e ter mais detalhes de como funciona tal automação, 
 
 
 
-
+ENG - US version
 
 Official Documents Automation System
 
